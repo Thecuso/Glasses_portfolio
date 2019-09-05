@@ -1,0 +1,84 @@
+.list{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.list_gallery{
+	display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+	height: 1350px;
+}
+.gallery_item{
+	width: 295px;
+	 box-shadow: 0 0 5px rgba(0,0,0,0.5);	
+	text-align: center;
+	background-color: white;
+	position: relative;
+}
+
+/*Стили для внутренностей элементов*/
+.gallery_item span{
+text-transform: uppercase;
+	font-weight: 800;
+	font-size: 10px;
+	letter-spacing: 3px;
+	line-height: 12px;
+	color:grey;
+}
+.gallery_item span:nth-child(1) {
+	display: block;
+	margin-top: 40px;
+}
+.gallery_item img{
+	height: 100%;
+	width: 100%;
+}
+.gallery_item p{
+	margin-top: 20px;
+	margin: 20px auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	/*Посмотреть*/
+	}
+.title_h{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 20px;
+}
+.read_more{
+	text-decoration: none;
+	color:#212121;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 3px;
+	font-weight: 800;
+	border-left: 1px solid #3c3c3c;
+	border-right: 1px solid #3c3c3c;
+	display: inline-block;
+	padding: 9px 13px;
+	font-family: Arial,sans-serif;
+	margin-top: 20px;
+}
+.read_more:hover{
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+	color:grey;	
+	border-left: 0;
+	border-right: 0;
+	padding: 8px 13px;
+
+}
+.gallery_item_footer{
+	margin-top: 30px;
+	border-top:0.5px solid #3c3c3c;
+	height: 50px;
+}
+
+/*2*/
+.short_time_img{
+	height: 200px;
+	background-color: #212429;
+}
+.

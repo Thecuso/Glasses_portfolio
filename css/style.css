@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap);
+*{
+	font-family: 'PT Sans Narrow';
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f9f9fb;
+}
+.header{
+	background-color: #212429;
+	height: 345px;
+	margin-bottom: 205px;
+}
+.container{
+	width:95%;
+	margin: 0 auto;
+}
+.menu{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+/*Гамбургер*/
+.hamburger{
+	border-left:1px solid #3c3c3c;
+	border-right: 1px solid #3c3c3c; 	
+	width:50px;
+	height: 50px;
+}
+.hamburger_lines{
+	width:28px;
+	height: 3px;
+	background-color: white;
+	border-radius: 100px;
+	position: absolute;
+	margin-top: 23px;
+	margin-left: 10px;
+}
+.hamburger_lines:before{
+	content: '';
+	width:28px;
+	height: 3px;
+	position: absolute;
+	background-color: white;
+	border-radius: 100px;
+	margin-top: -8px;
+}
+.hamburger_lines:after{
+	content: '';
+	width:28px;
+	height: 3px;
+	position: absolute;
+	background-color: white;
+	border-radius: 100px;
+	margin-top:8px;
+}
+/*Посмотреть*/
+
+.hamburger:hover {
+	cursor: pointer;
+}
+.hamburger:hover .hamburger_lines:after{
+	cursor: pointer;
+	width:30px;
+	height: 4px;
+}
+.hamburger:hover .hamburger_lines:before{
+	cursor: pointer;
+	width:30px;
+	height: 4px;
+}
+ .hamburger:hover .hamburger_lines{
+	cursor: pointer;
+	width:30px;
+	height: 4px;
+}
+/*Логотип*/
+.logo{
+	margin-top: 15px;
+}
+.logo span{
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	margin-left: 10px;
+	letter-spacing: 5px;
+}
+/*Социальное*/
+.social ul{
+	display: flex;
+}
+.social ul li{
+	list-style: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-left: 1px solid #3c3c3c;
+	border-right:1px solid #3c3c3c;
+	cursor:pointer;
+}
+.social ul li:hover{
+	background-color: white;
+	transition: 0.5s;
+}
+.social ul li img{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+/*Карусель*/
+.carousel{
+	height: 490px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+
+}
+.carousel ul{
+	height: 1500px;
+	margin: 0;
+	padding: 0;
+	transition: 1s;
+}
+.carousel ul li{
+	height: 490px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.carousel img{
+width: 100%;
+	height: 100%;
+	}
+	.buttons_carousel{
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		top:100px;
+		right: 30px;
+	}
+	.ceil{
+		height: 10px;
+		width: 10px;
+		border:2px solid grey;
+		background-color: white;
+		margin-top: 10px;
+	}
+	#ceil_1{
+		background-color:grey;
+	}
+.line_up{
+	height: 40px;
+	width: 3px;
+	background-color: white;
+	margin-bottom: 70px;
+	border-radius: 10px;
+
+		cursor:pointer;
+}
+.line_up:before{
+	content: '';
+	width: 3px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: white;
+	transform: rotate(45deg);
+	margin-left: -8px;
+	position: absolute;
+		margin-top: -2px;
+
+}
+.line_up:after{
+	content: '';
+	width: 3px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: white;
+	transform: rotate(-45deg);
+	margin-left: 8px;
+	position: absolute;
+		margin-top: -2px;
+
+}
+.line_down{
+	height: 40px;
+	width: 3px;
+	background-color: white;
+	margin-top: 70px;
+	border-radius: 70px;
+	cursor:pointer;
+
+}
+
+.line_down:before{
+	content: '';
+	width: 3px;
+	height: 20px;
+	border-radius: 70px;
+	background-color: white;
+	transform: rotate(-45deg);
+	margin-left: -8px;
+	margin-top: 21px;
+	position: absolute;
+
+}
+.line_down:after{
+	content: '';
+	width: 3px;
+	height: 20px;
+	border-radius: 70px;
+	background-color: white;
+	transform: rotate(45deg);
+	margin-top: 21px;
+	margin-left: 8px;
+	position: absolute;
+
+}
