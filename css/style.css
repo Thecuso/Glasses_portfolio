@@ -16,13 +16,13 @@ body{
 	width:95%;
 	margin: 0 auto;
 }
-@media (min-width:900px) and (max-width: 1599px) {
+@media (min-width:900px) and (max-width: 1499px) {
 .container{
 	width:95%;
 	margin: 0 auto;
 }
 }
-@media (min-width:1600) {
+@media (min-width:1500px) {
 .container{
 	width:70%;
 	margin: 0 auto;
