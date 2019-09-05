@@ -12,10 +12,7 @@ body{
 	height: 345px;
 	margin-bottom: 205px;
 }
-.container{
-	width:95%;
-	margin: 0 auto;
-}
+
 @media (min-width:900px) and (max-width: 1499px) {
 .container{
 	width:95%;
